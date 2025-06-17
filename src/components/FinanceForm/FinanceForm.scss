@@ -1,0 +1,28 @@
+.finance-form {
+    display: flex;
+    flex-direction: column;
+    gap: 0.8rem;
+    padding: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+
+    input,
+    select {
+        padding: 0.5rem;
+        border-radius: 4px;
+        border: 1px solid #ccc;
+    }
+
+    button {
+        background-color: #ff0066;
+        color: white;
+        border: none;
+        padding: 0.7rem;
+        border-radius: 4px;
+        cursor: pointer;
+
+        &:hover {
+            background-color: #e6005c;
+        }
+    }
+}
